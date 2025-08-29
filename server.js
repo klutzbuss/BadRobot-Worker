@@ -1,12 +1,13 @@
 /**
  * BadRobot worker - Nano Banana patch-regeneration
  */
-import express from "express";
-import multer from "multer";
-import cors from "cors";
-import sharp from "sharp";
-import Jimp from "jimp";
-import { GoogleGenerativeAI } from "@google/generative-ai";
+const express = require("express");
+const multer = require("multer");
+const cors = require("cors");
+const sharp = require("sharp");       // <-- CommonJS require
+const Jimp = require("jimp");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+
 
 const app = express();
 app.use(cors());
