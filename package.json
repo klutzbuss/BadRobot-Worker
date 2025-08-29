@@ -5,12 +5,12 @@
   "scripts": { "start": "node server.js" },
   "engines": { "node": ">=18" },
   "dependencies": {
-    "express": "^4.18.3",
-    "multer": "^1.4.5-lts.1",
-    "cors": "^2.8.5",
-    "@img/sharp-linux-x64": "^0.33.3",
-    "sharp": "npm:@img/sharp-linux-x64@^0.33.3",
-    "jimp": "^0.22.10",
-    "@google/generative-ai": "^0.17.0"
-  }
+  "express": "^4.18.3",
+  "multer": "^1.4.5-lts.1",
+  "cors": "^2.8.5",
+  "sharp": "^0.33.3",
+  "@img/sharp-linux-x64": "^0.33.3",
+  "jimp": "^0.22.10",
+  "@google/generative-ai": "^0.17.0"
+}
 }
