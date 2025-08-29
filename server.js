@@ -4,7 +4,7 @@
 const express = require("express");
 const multer = require("multer");
 const cors = require("cors");
-const sharp = require("sharp");       // <-- CommonJS require
+const sharp = require("sharp");
 const Jimp = require("jimp");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
@@ -132,4 +132,5 @@ app.post("/process", upload.any(), async (req, res) => {
 });
 
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => console.log(`BadRobot worker listening on :${PORT}`));
+app.listen(PORT, () => console.log(`Worker listening on ${PORT}`));
+
