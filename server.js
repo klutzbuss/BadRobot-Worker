@@ -4,7 +4,7 @@
 const express = require("express");
 const multer = require("multer");
 const cors = require("cors");
-const sharp = require("@img/sharp-linux-x64");
+const sharp = require("sharp");
 const Jimp = require("jimp");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
